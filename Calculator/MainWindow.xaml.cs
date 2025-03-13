@@ -13,7 +13,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
 namespace Calculator
 {
   public partial class MainWindow : Window
@@ -30,9 +29,6 @@ namespace Calculator
         }
         }
      }
-
-
-
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -74,6 +70,25 @@ namespace Calculator
 
 
 
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            double normalSize = 18; // Обычный размер шрифта
+            double largeSize = 28;  // Увеличенный размер шрифта
+
+            foreach (UIElement el in MainRoot.Children)
+            {
+                if (el is Label lbl)
+                {
+                    lbl.FontSize = isLargeFont ? normalSize : largeSize;
+                }
+                else if (el is Button btn)
+                {
+                    btn.FontSize = isLargeFont ? normalSize : largeSize;
+                }
+            }
+
+            isLargeFont = !isLargeFont; // Переключаем флаг
         }
     }
 }

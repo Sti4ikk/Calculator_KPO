@@ -183,6 +183,9 @@
       </StackPanel>
       <Border x:Name="grid" CornerRadius="10" Background="Black" Visibility="Collapsed" Opacity="0">
         <Button x:Name="ButtonPowerOn" Grid.Column="0" Grid.Row="1" Margin="5" Width="150" Height="150"
+            </StackPanel>
+            <Border x:Name="grid" CornerRadius="10" Background="Black" Visibility="Collapsed" Opacity="0">
+                <Button x:Name="ButtonPowerOn" Grid.Column="0" Grid.Row="1" Margin="5" Width="150" Height="150"
                   Style="{StaticResource MaterialDesignFloatingActionDarkButton}"
                   BorderThickness="1" BorderBrush="{StaticResource PrimaryHueMidBrush}">
           <materialDesign:PackIcon Kind="Power" Width="80" Height="80"/>
