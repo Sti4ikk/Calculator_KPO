@@ -33,9 +33,11 @@ namespace Calculator
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string str = (string)((Button)e.OriginalSource).Content;
-            List<string> list_methods = new List<string> { "+", "-", "*", "/", "C", "^2", "CE", "="};
+            List<string> list_methods = new List<string> { "+", "-", "*", "/", "C", "^2", "CE", "=" };
             switch (str)
             {
+                case "Глаз":
+                    break;
                 case "CE":
                     ResultLabel.Text = "";
                     break;
@@ -67,9 +69,9 @@ namespace Calculator
                     break;
             }
 
+        }
 
-
-
+        private bool isLargeFont = false; // Флаг для переключения шрифта
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
