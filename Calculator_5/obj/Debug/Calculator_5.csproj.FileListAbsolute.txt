@@ -1,0 +1,7 @@
+C:\Users\matve\source\repos\4 семестр\Calculator_KPO-master\Calculator_5\obj\Debug\Calculator_5.csproj.AssemblyReference.cache
+C:\Users\matve\source\repos\4 семестр\Calculator_KPO-master\Calculator_5\obj\Debug\MainWindow.g.cs
+C:\Users\matve\source\repos\4 семестр\Calculator_KPO-master\Calculator_5\obj\Debug\App.g.cs
+C:\Users\matve\source\repos\4 семестр\Calculator_KPO-master\Calculator_5\obj\Debug\Calculator_MarkupCompile.cache
+C:\Users\matve\source\repos\4 семестр\Calculator_KPO-master\Calculator_5\obj\Debug\Calculator_MarkupCompile.lref
+C:\Users\matve\source\repos\4 семестр\Calculator_KPO-master\Calculator_5\obj\Debug\Calculator.exe
+C:\Users\matve\source\repos\4 семестр\Calculator_KPO-master\Calculator_5\obj\Debug\Calculator.pdb
